@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
+#partie_gauche #partie_droite{
+    text-align: justify;
+}
+#partie_gauche {
+    margin-right: 20px;
+    flex: 1.5;
+    background-color: black;
+}
+#partie_droite{
+    position: relative;
+    flex: 3;
+    background-color: #fff;
+}
+#nometprenom {
+    margin-left: -20px;
+    padding: 10px;
+    background-color: #808000;
+    margin-bottom: 30px;
+}
+#nometprenom h1 {
+    margin-left: 25%;
+}
+#zone_titre {
+    border: solid 5px black;
+    margin: 15px;
+}
+.zone_chapitre h2{
+    border: solid 3px black;
+    margin-right: 25% ;
+}
+#partie_gauche p {
+    color: #fff;
+}
+#partie_gauche h2 {
+    color: #808000;
+}
+#partie_gauche h4 {
+    color: #fff;
+}
+#partie_gauche li {
+    color: #fff;
+}
+#partie_gauche a {
+    color: #fff;
+}
+.zone_text_gauche{
+    margin-left: 15%;
+}
+#partie_gauche img {
+    color: #fff;
+}
+.bouton{
+    border: solid 1px #808000;
+    border-radius: 5px;
+    text-align: left;
+    /* background-color: #808000; */
+    /* padding-left: 5px; */
+    width: 200px;
+}
+.titre{
+    font-size: larger;
+}
+#partie_droite ul {
+    list-style-type: none;
+    display: flex;
+}
+#partie_droite li {
+    margin-right: 10%;
+}
